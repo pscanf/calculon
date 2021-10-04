@@ -1,0 +1,20 @@
+.Calculator {
+    width: 410px;
+}
+
+.CalculatorDisplays {
+    justify-content: space-between;
+}
+
+.CalculatorButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Calculator .Digits {
+    width: 300px;
+}
+
+.Calculator .Operators {
+    width: 100px;
+}
