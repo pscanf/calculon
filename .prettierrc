@@ -1,3 +1,16 @@
 {
-    "tabWidth": 4
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.css", "*.html", "*.js", "*.jsx"],
+      "options": {
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": ["*.md"],
+      "options": {
+        "proseWrap": "always"
+      }
+    }
+  ]
 }

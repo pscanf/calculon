@@ -15,7 +15,10 @@ interface Props {
 export default function Calculator(props: Props) {
     return (
         <div className="Calculator" data-testid="Calculator">
-            <div className="CalculatorDisplays">
+            <div
+                className="CalculatorDisplays"
+                data-testid="CalculatorDisplays"
+            >
                 <Display>{props.expression}</Display>
                 <Display>{props.result}</Display>
             </div>

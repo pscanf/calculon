@@ -11,6 +11,7 @@ export default function Button(props: Props) {
     return (
         <div
             className={`Button ${props.className ?? ""}`}
+            role="button"
             onClick={() => props.onClick()}
         >
             {props.children}

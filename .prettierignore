@@ -1,0 +1,11 @@
+# IDEs
+/.vscode
+
+# Testing
+/coverage
+
+# Build
+/build
+
+# Playwright files
+test-results
